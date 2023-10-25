@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Enlaza Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Todos los Productos</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container text-center">
+            <!-- Logotipo y Nombre de la Empresa -->
+            <a class="navbar-brand" href="#" style="color: white;">
+                <img src="../img/Logo.jpg" alt="Cacao Artesano" width="70">
+                Cacao Artesano
+            </a>
+
+            
+            <!-- Barra de Búsqueda -->
+            <form class="d-flex mx-auto">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" style="width: 400px;"> <!-- Ajusta la anchura aquí -->
+                <button class="custom" type="submit">Buscar</button>
+            </form>
+
+            
+            <!-- Botón "ENTRAR" con un icono de Font Awesome y color de fondo negro -->
+            <a href="#" class="custom-button">
+                <i class="fas fa-sign-in-alt custom-icon"></i> ENTRAR
+            </a>
+
+
+            <!-- Icono del Carrito de Compras de Font Awesome -->
+        <a href="#" class="custom-button">
+            <i class="fas fa-shopping-cart custom-icon"></i>
+        </a>
+
+
+        </div>
+    </nav>
+
+    <!-- Barra de Navegación Secundaria -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../menu.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="todos-los-productos.html">Todos los productos</a></li>
+                  <li><a class="dropdown-item" href="cacao-en-polvo.html">Cacao en polvo</a></li>
+                  <li><a class="dropdown-item" href="tabletas-de-chocolate.html">Tabletas de chocolate</a></li>
+                  <li><a class="dropdown-item" href="granos-de-cacao.html">Granos de cacao</a></li>
+                  <li><a class="dropdown-item" href="manteca-de-cacao.html">Manteca de Cacao</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proceso-de-produccion.html">Proceso de produccion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recetas.html">Receta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Banner Promocional con un icono de Font Awesome en el botón -->
+    <section id="banner" style="background-image: url('../img/Banner.jpg');" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h2>Descubre el Sabor del Cacao</h2>
+            <p>Productos de cacao de la más alta calidad.</p>
+            <a href="#" class="btn btn-warning">
+                <i class="fas fa-tags"></i> Ver Ofertas
+            </a>
+        </div>
+    </section>
+
+    <!--Contenido de Pagina-->
+    <!-- Proceso de Producción -->
+    <section id="proceso-produccion" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Proceso de Producción</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="proceso-produccion.jpg" alt="Proceso de Producción" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2>De la Cosecha al Producto Final</h2>
+                    <p>En nuestra empresa, nos enorgullece llevar a cabo un proceso de producción de cacao de alta calidad. Nuestro compromiso con la excelencia comienza desde la cosecha de los granos de cacao hasta la creación de productos finales excepcionales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pasos del Proceso de Producción -->
+    <section id="pasos-produccion" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Paso 1: Cosecha</h3>
+                    <p>Seleccionamos los mejores granos de cacao de las fincas locales.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Paso 2: Fermentación</h3>
+                    <p>Los granos se fermentan para desarrollar su sabor único.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Paso 3: Tostado</h3>
+                    <p>Los granos se tuestan cuidadosamente para resaltar sus notas de sabor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ... (otros pasos del proceso de producción) ... -->
+    
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-section contact-info">
+                        <h3>Contacto</h3>
+                        <p>Dirección: Facultad de Contaduria y Administracion CI</p>
+                        <p>Teléfono: +52 (961) 603 7865</p>
+                        <p>Correo electrónico: ernestodguez31@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-section social-media">
+                        <h3>Redes Sociales</h3>
+                        <a href="[Enlace a Facebook]">Facebook</a>
+                        <a href="[Enlace a Twitter]">Twitter</a>
+                        <a href="[Enlace a Instagram]">Instagram</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-section newsletter">
+                        <h3>Boletín Informativo</h3>
+                        <p>Suscríbete para recibir noticias y ofertas especiales.</p>
+                        <form action="[URL del formulario de suscripción]" method="POST">
+                            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                            <button type="submit" class="btn btn-warning">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlaza Bootstrap JS al final del body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

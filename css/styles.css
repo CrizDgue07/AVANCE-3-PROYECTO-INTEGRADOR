@@ -1,0 +1,204 @@
+ /* Cambiar el fondo de la página a negro */
+ body {
+    background-color: #ffffff;
+}
+
+/* Estilos personalizados */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Cambiar el color del texto a café al pasar el cursor */
+.navbar-brand:hover {
+    color: #8B4513; /* Café */
+}
+
+
+.navbar-brand img {
+    border-radius: 50%; /* Logotipo redondo */
+    margin-right: 10px;
+    transition: transform 0.3s; /* Agregar efecto de transformación al pasar el cursor */
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Escalar al pasar el cursor para dar un efecto de zoom */
+}
+/*Estilo para la barra de busqueda*/
+.form-control {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+}
+
+/* Estilo para el botón de búsqueda */
+.custom {
+    background-color: #8B4513; /* Color café */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+/* Estilo al pasar el mouse por encima del botón */
+.custom:hover {
+    background-color: #A0522D; /* Cambia el color al pasar el mouse */
+}
+
+/* En tu hoja de estilos CSS */
+.btn-brown {
+    background-color: #964B00; /* Color café personalizado */
+    color: white; /* Color del texto en el botón */
+}
+
+.btn-brown:hover {
+    background-color: #8B4513; /* Cambia el color al pasar el cursor sobre el botón */
+}
+
+
+/* Estilos para el botón "ENTRAR" */
+/* Estilos para el botón "ENTRAR" */
+.custom-button {
+    background-color: #000;
+    transition: transform 0.2s; /* Agregar una transición suave */
+    display: flex;
+    align-items: center;
+}
+
+/* Cambia el tamaño del botón y el icono cuando se coloca el cursor sobre el botón */
+.custom-button:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del botón y el icono en un 20% */
+}
+
+/* Estilos para el icono dentro del botón "ENTRAR" */
+.custom-icon {
+    color: white; /* Icono blanco */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+
+/*Estilo para el carrito de compras*/
+/* Estilos para el botón personalizado */
+.custom-button {
+    background-color: black; /* Fondo negro */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block;
+}
+
+/* Estilos para el icono dentro del botón */
+.custom-icon {
+    color: white; /* Icono blanco */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+/* Estilos para el icono dentro del botón */
+.custom-icon {
+    color: white; /* Icono blanco */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+    transition: transform 0.2s; /* Agregar una transición suave */
+}
+
+/* Cambia el tamaño del icono cuando se coloca el cursor sobre el botón */
+.custom-button:hover .custom-icon {
+    transform: scale(1.2); /* Aumenta el tamaño del icono en un 20% */
+}
+
+
+/* Estilos para la barra de navegación secundaria */
+.navbar-secondary {
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+}
+
+.navbar-secondary .nav-link {
+    color: #000; /* Color de texto negro en los enlaces de navegación */
+}
+
+footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin: 0;
+    color: #ccc;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ff9900;
+}
+
+.footer-section form {
+    margin-top: 10px;
+}
+
+.footer-section input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.footer-section button[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-section button[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
